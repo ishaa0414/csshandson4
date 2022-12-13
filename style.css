@@ -1,0 +1,203 @@
+.heading{
+    width:100%;
+    height:20px;
+    font-weight:bold;
+    text-decoration:underline;
+    color:black;
+    background-image:linear-gradient(to right,red,green,rgb(123, 227, 123),yellow);
+    text-align:center;
+}
+.unorderedlist{
+    border:3px solid red;
+    background-color:rgb(157, 210, 213);;
+    text-align:center;
+    border-radius:10px;
+    width:600px;
+    height:50px;
+   font-weight:bold;
+    font-size:0.6rem;
+    position:relative;
+    left:30%;
+    margin-top:10px;
+}
+ul{
+    padding-left: 250px;
+    padding-right: 200px;
+}
+.topbox{
+    border:1px solid red;
+    border-radius:10px;
+    background-color:aquamarine;
+    margin-top:10px;
+    height:170px;
+}
+.topbox1{
+ border:2px solid green;
+ border-radius:10px;
+ background-color:aqua;
+ width:400px; 
+ font-size: 0.9rem;
+ height: 80px;
+ font-weight: bold;
+ margin-left: 30px;
+}
+.topbox2{
+    border:2px solid green;
+ border-radius:10px;
+ background-color:aqua;
+ width:400px; 
+ font-size: 0.9rem;
+ height: 80px;
+ font-weight: bold;
+}
+.middletop{
+    position: relative;
+ left: 500px;
+ bottom: 83px;
+}
+.topbox3{
+    border:2px solid green;
+ border-radius:10px;
+ background-color:aqua;
+ width:400px; 
+ font-size: 0.9rem;
+ height: 80px;
+ font-weight: bold;
+}
+.topbox4{
+    border:2px solid green;
+    border-radius:10px;
+    background-color:aqua;
+    width:400px; 
+    font-size: 0.9rem;
+    height: 80px;
+    font-weight: bold;
+    position: relative;
+    left: 1000px;
+    bottom: 252px;
+}
+.topperformerheading{
+    width:100%;
+    font-weight:bold;
+    text-decoration:underline;
+    color:black;
+    background-image:linear-gradient(to right,red,yellow,red);
+    text-align:center;
+    font-size: small;
+    text-decoration-color: red;
+    height: 25px;
+    margin-top:30px;
+}
+.topperformer{
+    border:2px solid green;
+    background-image: radial-gradient(blue,#51bdd5,#3cea3c);
+    display:flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+.top1{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(246, 240, 72);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(117, 8, 8);
+    text-decoration: underline;
+    text-decoration-color:  rgb(117, 8, 8);
+}
+.top2{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(246, 240, 72);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(117, 8, 8);
+    text-decoration: underline;
+    text-decoration-color:  rgb(117, 8, 8); 
+}
+.top3{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(246, 240, 72);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(117, 8, 8);
+    text-decoration: underline;
+    text-decoration-color:  rgb(117, 8, 8); 
+}
+.top4{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(246, 240, 72);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(117, 8, 8);
+    text-decoration: underline;
+    text-decoration-color:  rgb(117, 8, 8);    
+}
+.bestplace{
+    width:100%;
+    font-weight:bold;
+    color:white;
+    background-color:rgb(232, 87, 87);
+    text-align:center;
+    height: 30px;
+    margin-top:30px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid{
+    display:grid;
+    gap:30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:30.5% 30.5% 30.5% 7%;
+    margin-top:10px;
+}
+.grid1{
+    background-color: #3cea3c;
+    color:white;
+    font-weight:bold;
+}
+.grid2{
+    background-color: dodgerblue;
+    color:white;
+    font-weight:bold;
+}
+.grid3{
+background-color: slateblue;
+color:white;
+font-weight:bold;
+}
+.grid4{
+    background-color: rgb(63, 63, 63);
+    color:white;
+    font-weight:bold;
+    height:fit-content;
+    text-decoration:underline;
+    text-decoration-color:white;
+    grid-row: 2/4;
+
+}
+.grid5{
+    background-color: sandybrown;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color:white;
+    font-weight:bold;
+    grid-row: 3/4;
+   
+}
+.all{
+    background-color: #51bdd5;
+    text-align: center;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
